@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Formularios</title>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+    <form action="resultados1.html" method="get">
+            <div>
+                <label for="name">Nombre: </label>
+                <input type="text" name="Nombre" id="name">
+            </div>
+            <br>
+            <div>
+                <label for="apellidopaterno">Apellido Paterno: </label>
+                <input type="text" name="Apellido1" id="apellidopaterno">
+            </div>
+            <br>
+            <div>
+                <label for="Apellidomaterno">Apellido Materno: </label>
+                <input type="text" name="Apellido2" id="Apellidomaterno">
+            </div>
+            <br>
+            <div>
+                <label for="Edad">Edad: </label>
+                <input type="number" name="years" id="Edad" min="0" max="100" step="5" required/>
+            </div>
+            <br>
+            <div>
+                <label for="Fechanacimiento">Fecha de Nacimiento: </label>
+                <input type="date" name="Born" id="Fechanacimiento" required/>
+            </div>
+            <br>
+            <div>
+                <label for="email">Correo: </label>
+                <input type="email" name="mail" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="Comentarios">Comentarios</label>
+                <input name="comments" id="Comentarios">
+            </div>
+            <br>
+            <button type="submit">Guardar</button> 
+            <!--Enviar con tecla enter-->
+            <button type="reset">Borrar</button>
+            <!--Limpiar formulario-->
+    </form>
+</body>
+</html>
